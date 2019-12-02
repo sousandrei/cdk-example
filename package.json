@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Andrei Sousa <sousandrei@gmail.com>",
   "bin": {
-    "smoooth": "ts-out/smoooth.js"
+    "smoooth": "ts.out/smoooth-app.js"
   },
   "scripts": {
     "build": "tsc",
