@@ -1,5 +1,5 @@
-import cdk from '@aws-cdk/core'
-import ec2 from '@aws-cdk/aws-ec2'
+import * as cdk from '@aws-cdk/core'
+import * as ec2 from '@aws-cdk/aws-ec2'
 
 interface CustomVpcProps extends Partial<ec2.VpcProps> {}
 

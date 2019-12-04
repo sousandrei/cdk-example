@@ -1,4 +1,4 @@
-import cdk from '@aws-cdk/core'
+import * as cdk from '@aws-cdk/core'
 
 import { CustomVpc } from '../../constructs/vpc'
 import { CustomEc2 } from '../../constructs/ec2'

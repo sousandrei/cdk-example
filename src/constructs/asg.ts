@@ -1,6 +1,6 @@
-import cdk from '@aws-cdk/core'
-import autoscaling from '@aws-cdk/aws-autoscaling'
-import ec2 from '@aws-cdk/aws-ec2'
+import * as cdk from '@aws-cdk/core'
+import * as autoscaling from '@aws-cdk/aws-autoscaling'
+import * as ec2 from '@aws-cdk/aws-ec2'
 
 interface CustomAsgProps extends Partial<autoscaling.AutoScalingGroup> {
   vpc: ec2.Vpc
