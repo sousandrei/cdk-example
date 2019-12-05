@@ -1,5 +1,5 @@
 import 'source-map-support/register'
-import cdk = require('@aws-cdk/core')
+import * as cdk from '@aws-cdk/core'
 
 import { SmooothStack } from './stacks/smoooth-stack'
 
